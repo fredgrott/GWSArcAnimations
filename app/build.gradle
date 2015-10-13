@@ -93,6 +93,8 @@ android {
             minifyEnabled false
             testCoverageEnabled true
 
+            applicationIdSuffix '.dev'
+            versionNameSuffix '-dev'
         }
 
         release {
@@ -100,6 +102,8 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
             signingConfig signingConfigs.release
 
+            applicationIdSuffix '.release'
+            versionNameSuffix '-release'
         }
     }
 }
