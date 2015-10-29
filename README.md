@@ -18,7 +18,7 @@ Than in the module buildscript:
 
 
 ```groovy
-compile 'com.github.shareme:GWSArcAnimations:1.0.0.0@aar'
+compile 'com.github.shareme:GWSArcAnimations:{latest-release-number}@aar'
 ```
 
 
@@ -26,6 +26,7 @@ Target Android API Range
 ========================
 
 Api 16 to api 23.
+
 
 
 
